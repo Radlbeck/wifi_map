@@ -11,8 +11,10 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    wifi.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    wifi.h
 
 FORMS    += mainwindow.ui
